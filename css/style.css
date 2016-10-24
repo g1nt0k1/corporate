@@ -33,6 +33,10 @@ p{
 	font-size: 20px;
 }
 
+img{
+	vertical-align: bottom;
+}
+
 .clearfix:after {
     content:" ";
     display:block;
@@ -46,6 +50,23 @@ p{
 	transform: translateX(-50%) translateY(-50%);
 }
 
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.op_background{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	background-color: #000000;
+	opacity: 0.4;
+}
+
 main{
 	width: 800px;
 	height: 100%;
@@ -53,19 +74,16 @@ main{
 }
 
 
-/* firstview */
+/*
+
+	firstview
+
+*/
 .firstview{
 	width: 100%;
 	height: 400px;
 	background-image: url('../img/background-1.jpg');
 	position: relative;
-}
-
-.op_background{
-	width: 100%;
-	height: 100%;
-	background-color: #000000;
-	opacity: 0.4;
 }
 
 .firstview h1,h3{
@@ -76,16 +94,83 @@ main{
 	margin-top: 48px;
 }
 
-/* vision_msg */
-.vision_msg{
 
+
+/*
+
+	vision_msg
+
+*/
+.vision{
+	width: 100%;
+	height: 100%;
 }
 
-.vision_msg h2{
+.vision h2{
 	border-bottom: solid 2px rgba(144,164,174,0.4);
 }
 
+.vision_content{
+	width: 100%;
+	height: 100%;
+}
 
+.vision_content img{
+	width: 400px;
+	height: 400px;
+}
+
+.vision_content p{
+	width: 380px;
+	height: 360px;
+	padding: 20px 10px;
+}
+.
+
+/*
+
+	 business
+
+ */
+.business{
+	width: 100%;
+	height: 100%;
+}
+
+.business_column{
+	width: 50%;
+	height: 50%;
+	position: relative;
+}
+
+.business_column img{
+	width: 100%;
+	height: 100%;
+}
+
+.business_title{
+	color: #EEEEEE;
+}
+
+/*
+
+	about
+
+*/
+.about{
+	width: 100%;
+	height: 100%;
+}
+
+.about_column{
+	width: 100%;
+	height: 100%;
+}
+
+.about_title,.about_content{
+	width: 50%;
+	height: 100%;
+}
 
 footer{
 	width: 100%;
