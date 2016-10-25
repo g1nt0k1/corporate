@@ -17,14 +17,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	background: transparent;
 }
 
-h1{
-	font-size: 40px;
-}
-
 h2{
-	font-size: 36px;
+	font-size: 40px;
+	text-align: center;
 	border-bottom: solid 2px rgba(144,164,174,0.4);
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 h3{
@@ -37,10 +34,6 @@ p{
 
 img{
 	vertical-align: bottom;
-}
-
-body{
-	background-color: #B0BEC5;
 }
 
 .clearfix:after {
@@ -73,14 +66,6 @@ body{
 	opacity: 0.4;
 }
 
-main{
-	width: 880px;
-	height: 100%;
-	background-color: #EEEEEE;
-	margin: 0 auto;
-}
-
-
 /*
 
 	firstview
@@ -94,12 +79,30 @@ main{
 	margin-bottom: 40px;
 }
 
-.firstview h1,h3{
+.firstview_msg{
+	width: 100%;
+	height: 100%;
+}
+
+.firstview h1{
+	width: inherit;
+	text-align: center;
 	color: #EEEEEE;
 }
 
-.firstview h3{
-	margin-top: 48px;
+.firstview h1{
+	font-size: 60px;
+}
+
+/*
+
+ main
+
+*/
+main{
+	width: 880px;
+	height: 100%;
+	margin: 0 auto;
 }
 
 
@@ -110,15 +113,24 @@ main{
 
 */
 .vision{
-	width: 90%;
+	width: 100%;
 	height: 100%;
-	margin:0 5% 40px;
+	margin-bottom: 40px;
+}
+
+.vision h2{
 	margin-bottom: 40px;
 }
 
 .vision_content{
 	width: 100%;
 	height: 100%;
+	margin-bottom: 40px;
+}
+
+.vision_num{
+	text-align: center;
+	margin-bottom: 22px;
 }
 
 .vision_content img{
@@ -127,11 +139,10 @@ main{
 }
 
 .vision_content p{
-	width: 360px;
-	height: 360px;
-	padding: 20px 10px;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
 }
-.
 
 /*
 
@@ -139,9 +150,9 @@ main{
 
  */
 .business{
-	width: 90%;
+	width: 100%;
 	height: 100%;
-	margin: 0 5% 40px;
+	margin: 0 20px 40px;
 }
 
 .business h2{
