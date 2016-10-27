@@ -101,6 +101,7 @@ img{
 */
 main{
 	width: 80%;
+	max-width: 880px;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -128,9 +129,16 @@ main{
 	margin-bottom: 40px;
 }
 
-.vision_num{
+.vision_num,.vision_title{
 	text-align: center;
-	margin-bottom: 22px;
+}
+
+.vision_num{
+	margin-bottom: 18px;
+}
+
+.vision_title{
+	margin-bottom: 28px;
 }
 
 .vision_content img{
@@ -186,23 +194,46 @@ main{
 
 .business_text{
 	width: 80%;
-	padding: 10% 0;
+	padding: 0 10%;
 	color: #EEEEEE;
 }
 
 /* business_2 */
+.business_column2{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.business_content2{
+	width: 100%;
+	height: 400px;
+}
+
+.business_section2 h3{
+	margin-bottom: 16px;
+	border-bottom: solid 2px rgba(144,164,174,0.4);
+}
 .img-wrap{
 	width: 50%;
-	height: 400px;
-	border-radius: 50%;
+	max-width: 400px;
+	height: 100%;
+	max-height: 400px;
 }
 .img-wrap img{
 	width: 100%;
 	height: inherit;
+	border-radius: 50%;
+}
+.business_section2{
+	width: 50%;
+	height: 100%;
+	position: relative;
 }
 .business_text2{
 	width: 80%;
-	padding: 10% 0;
+	padding: 0 10%;
 }
 
 
@@ -214,17 +245,40 @@ main{
 .about{
 	width: 100%;
 	height: 100%;
+	position: relative;
 }
 
-.about_column{
-	width: 100%;
-	height: 100%;
+.about h2{
+	margin-bottom: 22px;
 }
 
-.about_title,.about_content{
-	width: 50%;
-	height: 100%;
+.about dt{
+	font-size: 26px;
+	padding-top: 28px;
+	margin-bottom: 30px;
+	font-weight: bold;
+	border-top: 1px solid #EEEEEE;
 }
+
+.about dt:first-child{
+	border-top: none;
+}
+
+.about dd{
+	font-size: 18px;
+	padding-bottom: 28px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.about dd:last-child{
+	border-bottom: none;
+}
+
+/*
+
+	footer
+
+ */
 
 footer{
 	width: 100%;
