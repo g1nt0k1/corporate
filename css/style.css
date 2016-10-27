@@ -74,14 +74,17 @@ img{
 .firstview{
 	width: 100%;
 	height: 720px;
-	background-image: url('../img/background-1.jpg');
 	position: relative;
+	overflow: hidden;
 	margin-bottom: 40px;
 }
 
 .firstview_msg{
 	width: 100%;
 	height: 100%;
+	position:absolute;
+	top: 0;
+	background-color: rgba(0,0,0,0.4);
 }
 
 .firstview h1{
