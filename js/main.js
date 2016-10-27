@@ -7,11 +7,12 @@ $(function(){
     });
 
     $('.firstview_slide').panelGallery({
-		viewDuration: 3000,
-		transitionDuration: 500,
-		boxSize: 45,
-		boxFadeDuration: 500,
+		viewDuration: 2000,
+		transitionDuration: 300,
+		boxSize: 40,
+		boxFadeDuration: 300,
 		boxTransitionDuration: 50,
-		FX: new Array('boxSouthEast')
+		// FX: new Array('boxSouthEast')
+        FX: new Array('panelZipperDown,true','panelZipperRight,true','panelTeethDown,true','panelTeethRightReveal')
 	});
 });
