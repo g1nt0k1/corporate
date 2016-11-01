@@ -7,7 +7,7 @@ $(function(){
     });
 
     $('.firstview_slide').panelGallery({
-		viewDuration: 2000,
+		viewDuration: 3000,
 		transitionDuration: 300,
 		boxSize: 40,
 		boxFadeDuration: 300,
